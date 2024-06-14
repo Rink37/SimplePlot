@@ -18,13 +18,13 @@ def plot(data, layout = []):
         data = [data]
     if layout == []:
         layout = [[1,1]]*len(data)
-    if not isinstance(layout[0], list) or not isinstance(layout[0], np.ndarray):
+    if not isinstance(layout[0], list) and not isinstance(layout[0], np.ndarray):
         layout = [layout]
     if len(layout) != len(data):
         layout += [[1,1]]*(len(data)-len(layout))
-    print(layout)
     length = 0
     for i in layout:
+        print(i)
         length = length+i[0]*i[1]
     sl = np.sqrt(length)
     shape = [0,0]
