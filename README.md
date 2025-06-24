@@ -1,2 +1,1 @@
-The examples are currently fairly lacking, I'm mostly working on altering features in SimplePlot.py so that they are more general compared to the specific purposes it was designed for.
-I plan to make this a downloadable module in the future, but you can currently use it as a module if you put SimplePlot.py in the same directory as your python file and include 'import SimplePlot' in the program. 
+This program is designed to simplify the creation of complex plots when computing plot data by performing matplotlib pyplot plotting commands using data stored in a dictionary (or list of dictionaries for subplotting). The aim of the program is to create a simplified and predictable single-line plot command. I will work to add more examples of the functionality in the future. 
